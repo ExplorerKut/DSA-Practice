@@ -1,6 +1,5 @@
 class Solution {
     public int bitwiseComplement(int n) {
-        // ArrayList<Integer> comp=new ArrayList<Integer>();
         int count=0;
         int ans=0;
         while(n>1){
