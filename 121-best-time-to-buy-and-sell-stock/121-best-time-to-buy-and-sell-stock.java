@@ -7,7 +7,7 @@ class Solution {
             if(prices[i]<prices[min]){
                 min=i;
             }
-            if(min!=i&&max<prices[i]-prices[min]){
+            if(max<prices[i]-prices[min]){
                 max=prices[i]-prices[min];
             }
             
